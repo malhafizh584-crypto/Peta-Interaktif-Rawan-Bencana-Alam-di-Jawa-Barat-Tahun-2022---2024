@@ -17,7 +17,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3891c7d6b333a3067976a40f05feffe5 {
+                #map_4a4278f69c442c979b40efb3d3f00cb0 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -54,16 +54,16 @@
 <body>
     
     
-            <div class="folium-map" id="map_3891c7d6b333a3067976a40f05feffe5" ></div>
+            <div class="folium-map" id="map_4a4278f69c442c979b40efb3d3f00cb0" ></div>
         
 </body>
 <script>
     
     
-            var map_3891c7d6b333a3067976a40f05feffe5 = L.map(
-                "map_3891c7d6b333a3067976a40f05feffe5",
+            var map_4a4278f69c442c979b40efb3d3f00cb0 = L.map(
+                "map_4a4278f69c442c979b40efb3d3f00cb0",
                 {
-                    center: [-6.9, 107.6],
+                    center: [-6.834446962962964, 107.70091214814816],
                     crs: L.CRS.EPSG3857,
                     ...{
   "zoom": 8,
@@ -78,7 +78,7 @@
 
         
     
-            var tile_layer_fc929af616dd665f47c656bcd0e23f8d = L.tileLayer(
+            var tile_layer_7ed20e9ce69b39fb78bf3fe91c7e52df = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {
   "minZoom": 0,
@@ -95,439 +95,1117 @@
             );
         
     
-            tile_layer_fc929af616dd665f47c656bcd0e23f8d.addTo(map_3891c7d6b333a3067976a40f05feffe5);
+            tile_layer_7ed20e9ce69b39fb78bf3fe91c7e52df.addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
         
     
-            var circle_marker_8694221ce9a5a7f8d29c018ef8dfefb6 = L.circleMarker(
-                [-6.9175, 107.6191],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.4, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
-        
-    
-            circle_marker_8694221ce9a5a7f8d29c018ef8dfefb6.bindTooltip(
-                `<div>
-                     <b>Bandung</b><br>Total Bencana: 128<br>Cluster: 0
-                 </div>`,
+            var marker_22d209b01e291532c0081826e0cdf35f = L.marker(
+                [-7.012851, 107.528627],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_a3c8be97f45b1eb24ecefca1fcaefbce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_136f08fd66cef41d5ccaffecf36a8f09 = L.circleMarker(
-                [-6.8667, 107.4833],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.95, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_3448ee7fabc33d510bee8e042e918f8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_150c8d9f0af7fbce049a890759b21582 = $(`<div id="html_150c8d9f0af7fbce049a890759b21582" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Bandung<br>Total Bencana: 128<br>Cluster: 0</div>`)[0];
+                popup_3448ee7fabc33d510bee8e042e918f8b.setContent(html_150c8d9f0af7fbce049a890759b21582);
+            
+        
+
+        marker_22d209b01e291532c0081826e0cdf35f.bindPopup(popup_3448ee7fabc33d510bee8e042e918f8b)
+        ;
+
         
     
-            circle_marker_136f08fd66cef41d5ccaffecf36a8f09.bindTooltip(
-                `<div>
-                     <b>Bandung Barat</b><br>Total Bencana: 59<br>Cluster: 0
-                 </div>`,
+    
+                marker_22d209b01e291532c0081826e0cdf35f.setIcon(icon_a3c8be97f45b1eb24ecefca1fcaefbce);
+            
+    
+            var marker_d908a88c88ae1f3b66a4655217de5647 = L.marker(
+                [-6.840651, 107.512302],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_6f9ce448d66ac9d68f8dbe5ebe16113e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_8188aa31c726d838013798f57d32bfa7 = L.circleMarker(
-                [-6.2378, 106.9936],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.15, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_1af4aefb6fd8407665751a27c7e9bb8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_65b82f4ae6f0eb4eb6d4d77569057cbf = $(`<div id="html_65b82f4ae6f0eb4eb6d4d77569057cbf" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Bandung Barat<br>Total Bencana: 59<br>Cluster: 0</div>`)[0];
+                popup_1af4aefb6fd8407665751a27c7e9bb8a.setContent(html_65b82f4ae6f0eb4eb6d4d77569057cbf);
+            
+        
+
+        marker_d908a88c88ae1f3b66a4655217de5647.bindPopup(popup_1af4aefb6fd8407665751a27c7e9bb8a)
+        ;
+
         
     
-            circle_marker_8188aa31c726d838013798f57d32bfa7.bindTooltip(
-                `<div>
-                     <b>Bekasi</b><br>Total Bencana: 43<br>Cluster: 0
-                 </div>`,
+    
+                marker_d908a88c88ae1f3b66a4655217de5647.setIcon(icon_6f9ce448d66ac9d68f8dbe5ebe16113e);
+            
+    
+            var marker_fd98b92761d7d69134f56628b5d17ed8 = L.marker(
+                [-6.364614, 107.172509],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_5614d9161afac2670eba361917429287 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_5fd2eb16f91bdf54a432d633c0319cf4 = L.circleMarker(
-                [-6.595, 106.8167],
-                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 29.15, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_a0032e9f3d6009ed4c53bffc23904d0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37e097b21e245789475afe512332fcee = $(`<div id="html_37e097b21e245789475afe512332fcee" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Bekasi<br>Total Bencana: 43<br>Cluster: 0</div>`)[0];
+                popup_a0032e9f3d6009ed4c53bffc23904d0f.setContent(html_37e097b21e245789475afe512332fcee);
+            
+        
+
+        marker_fd98b92761d7d69134f56628b5d17ed8.bindPopup(popup_a0032e9f3d6009ed4c53bffc23904d0f)
+        ;
+
         
     
-            circle_marker_5fd2eb16f91bdf54a432d633c0319cf4.bindTooltip(
-                `<div>
-                     <b>Bogor</b><br>Total Bencana: 583<br>Cluster: 1
-                 </div>`,
+    
+                marker_fd98b92761d7d69134f56628b5d17ed8.setIcon(icon_5614d9161afac2670eba361917429287);
+            
+    
+            var marker_7512205c2c3162a15234a67213eb385d = L.marker(
+                [-6.479679, 106.824965],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_d4b31b777418fed5a460ea8bdd3508a1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_998c6b6554e85b9c481930671259e965 = L.circleMarker(
-                [-7.3261, 108.3539],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.55, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_9f26838f53f3c696cd0517ae0acc0d50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_49ab6e271d9b9f5d14c6bccbad1ac1cc = $(`<div id="html_49ab6e271d9b9f5d14c6bccbad1ac1cc" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Bogor<br>Total Bencana: 583<br>Cluster: 1</div>`)[0];
+                popup_9f26838f53f3c696cd0517ae0acc0d50.setContent(html_49ab6e271d9b9f5d14c6bccbad1ac1cc);
+            
+        
+
+        marker_7512205c2c3162a15234a67213eb385d.bindPopup(popup_9f26838f53f3c696cd0517ae0acc0d50)
+        ;
+
         
     
-            circle_marker_998c6b6554e85b9c481930671259e965.bindTooltip(
-                `<div>
-                     <b>Ciamis</b><br>Total Bencana: 71<br>Cluster: 0
-                 </div>`,
+    
+                marker_7512205c2c3162a15234a67213eb385d.setIcon(icon_d4b31b777418fed5a460ea8bdd3508a1);
+            
+    
+            var marker_6068eed408682ca562a5d5541787b0f7 = L.marker(
+                [-7.325788, 108.3514],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_b015bb7228192722e1e274c1c753a818 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_a6aa9034c97dd3277cfc2ecd912ed736 = L.circleMarker(
-                [-7.09, 107.1333],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.05, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_abb6e2cab810cc3a148d2047b1113728 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_737d2894073add3b321edfef91da15e6 = $(`<div id="html_737d2894073add3b321edfef91da15e6" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Ciamis<br>Total Bencana: 71<br>Cluster: 0</div>`)[0];
+                popup_abb6e2cab810cc3a148d2047b1113728.setContent(html_737d2894073add3b321edfef91da15e6);
+            
+        
+
+        marker_6068eed408682ca562a5d5541787b0f7.bindPopup(popup_abb6e2cab810cc3a148d2047b1113728)
+        ;
+
         
     
-            circle_marker_a6aa9034c97dd3277cfc2ecd912ed736.bindTooltip(
-                `<div>
-                     <b>Cianjur</b><br>Total Bencana: 61<br>Cluster: 0
-                 </div>`,
+    
+                marker_6068eed408682ca562a5d5541787b0f7.setIcon(icon_b015bb7228192722e1e274c1c753a818);
+            
+    
+            var marker_e711e67ff18104bf0fa59f0b01cda13d = L.marker(
+                [-6.822558, 107.139542],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_66af6f99b404c347ef5e798b55d3dfba = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_2aeaf5fac1a7d6763923ce4887a719e1 = L.circleMarker(
-                [-6.7245, 108.557],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.65, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_a8b7c4291fcd52309cece4eb0250b86b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_04dc6e60747f0b8cfa66ead9b66230e3 = $(`<div id="html_04dc6e60747f0b8cfa66ead9b66230e3" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Cianjur<br>Total Bencana: 61<br>Cluster: 0</div>`)[0];
+                popup_a8b7c4291fcd52309cece4eb0250b86b.setContent(html_04dc6e60747f0b8cfa66ead9b66230e3);
+            
+        
+
+        marker_e711e67ff18104bf0fa59f0b01cda13d.bindPopup(popup_a8b7c4291fcd52309cece4eb0250b86b)
+        ;
+
         
     
-            circle_marker_2aeaf5fac1a7d6763923ce4887a719e1.bindTooltip(
-                `<div>
-                     <b>Cirebon</b><br>Total Bencana: 53<br>Cluster: 0
-                 </div>`,
+    
+                marker_e711e67ff18104bf0fa59f0b01cda13d.setIcon(icon_66af6f99b404c347ef5e798b55d3dfba);
+            
+    
+            var marker_8d2948b03a8fa590f804b164e9c0345c = L.marker(
+                [-6.764507, 108.478858],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_014121105670082c0f0dfba8ff66f77a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_b05df95b32d377afc415e0656c7bda80 = L.circleMarker(
-                [-7.2061, 107.895],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.0, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_4cfdfa045840e9a9efd5f02da8dea375 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb7b14ff9f07435b871fc0a3795adca = $(`<div id="html_8bb7b14ff9f07435b871fc0a3795adca" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Cirebon<br>Total Bencana: 53<br>Cluster: 0</div>`)[0];
+                popup_4cfdfa045840e9a9efd5f02da8dea375.setContent(html_8bb7b14ff9f07435b871fc0a3795adca);
+            
+        
+
+        marker_8d2948b03a8fa590f804b164e9c0345c.bindPopup(popup_4cfdfa045840e9a9efd5f02da8dea375)
+        ;
+
         
     
-            circle_marker_b05df95b32d377afc415e0656c7bda80.bindTooltip(
-                `<div>
-                     <b>Garut</b><br>Total Bencana: 40<br>Cluster: 0
-                 </div>`,
+    
+                marker_8d2948b03a8fa590f804b164e9c0345c.setIcon(icon_014121105670082c0f0dfba8ff66f77a);
+            
+    
+            var marker_1b72bfe8f3fc2c508f618096b391f589 = L.marker(
+                [-7.202988, 107.885592],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_2222b0184e22c5d8c8f7ba7e92e89cf3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_af71e8225a99f900604a1cd26fd929d9 = L.circleMarker(
-                [-6.3269, 108.32],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_b05b8987164690ae7c906b87fd332635 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009c77e4897379316b2943b75dfd177d = $(`<div id="html_009c77e4897379316b2943b75dfd177d" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Garut<br>Total Bencana: 40<br>Cluster: 0</div>`)[0];
+                popup_b05b8987164690ae7c906b87fd332635.setContent(html_009c77e4897379316b2943b75dfd177d);
+            
+        
+
+        marker_1b72bfe8f3fc2c508f618096b391f589.bindPopup(popup_b05b8987164690ae7c906b87fd332635)
+        ;
+
         
     
-            circle_marker_af71e8225a99f900604a1cd26fd929d9.bindTooltip(
-                `<div>
-                     <b>Indramayu</b><br>Total Bencana: 16<br>Cluster: 0
-                 </div>`,
+    
+                marker_1b72bfe8f3fc2c508f618096b391f589.setIcon(icon_2222b0184e22c5d8c8f7ba7e92e89cf3);
+            
+    
+            var marker_6651cc53a159173cafe70fbaf622e7da = L.marker(
+                [-6.327234, 108.322903],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_c8ba2be1f42db66314a9eeb17e0e97ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_e5e13f49dd94606eaec8d76d5b157378 = L.circleMarker(
-                [-6.3131, 107.3],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.15, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_78c801b5db729acde1708d8a196f710e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cfdcd4eaea03e94e54c684505cf7a28 = $(`<div id="html_0cfdcd4eaea03e94e54c684505cf7a28" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Indramayu<br>Total Bencana: 16<br>Cluster: 0</div>`)[0];
+                popup_78c801b5db729acde1708d8a196f710e.setContent(html_0cfdcd4eaea03e94e54c684505cf7a28);
+            
+        
+
+        marker_6651cc53a159173cafe70fbaf622e7da.bindPopup(popup_78c801b5db729acde1708d8a196f710e)
+        ;
+
         
     
-            circle_marker_e5e13f49dd94606eaec8d76d5b157378.bindTooltip(
-                `<div>
-                     <b>Karawang</b><br>Total Bencana: 83<br>Cluster: 0
-                 </div>`,
+    
+                marker_6651cc53a159173cafe70fbaf622e7da.setIcon(icon_c8ba2be1f42db66314a9eeb17e0e97ae);
+            
+    
+            var marker_0f581c4ed41089290c9aa475fa959292 = L.marker(
+                [-6.301721, 107.30529],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_3409df960222f1d9096d67af0ad34965 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_a85e78638dda928048f954bf45e90420 = L.circleMarker(
-                [-6.9175, 107.6191],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_11a59d264f80bedf78f20d367d685f80 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ec700733601714878f8ff318ef7962c = $(`<div id="html_2ec700733601714878f8ff318ef7962c" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Karawang<br>Total Bencana: 83<br>Cluster: 0</div>`)[0];
+                popup_11a59d264f80bedf78f20d367d685f80.setContent(html_2ec700733601714878f8ff318ef7962c);
+            
+        
+
+        marker_0f581c4ed41089290c9aa475fa959292.bindPopup(popup_11a59d264f80bedf78f20d367d685f80)
+        ;
+
         
     
-            circle_marker_a85e78638dda928048f954bf45e90420.bindTooltip(
-                `<div>
-                     <b>Kota Bandung</b><br>Total Bencana: 10<br>Cluster: 0
-                 </div>`,
+    
+                marker_0f581c4ed41089290c9aa475fa959292.setIcon(icon_3409df960222f1d9096d67af0ad34965);
+            
+    
+            var marker_6bf1c34fbc4668e421d114ba7ec9faaf = L.marker(
+                [-6.910786, 107.609757],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_88b8367065db947d8e9aa1021fcd8a1e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_c54f55b6f622883b487d4632bc241198 = L.circleMarker(
-                [-7.375, 108.542],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.55, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_5318f8c59adae3bbde33ab6ba32ffa22 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d85c1997eb9e8d979285ca3ef13b7d23 = $(`<div id="html_d85c1997eb9e8d979285ca3ef13b7d23" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Bandung<br>Total Bencana: 10<br>Cluster: 0</div>`)[0];
+                popup_5318f8c59adae3bbde33ab6ba32ffa22.setContent(html_d85c1997eb9e8d979285ca3ef13b7d23);
+            
+        
+
+        marker_6bf1c34fbc4668e421d114ba7ec9faaf.bindPopup(popup_5318f8c59adae3bbde33ab6ba32ffa22)
+        ;
+
         
     
-            circle_marker_c54f55b6f622883b487d4632bc241198.bindTooltip(
-                `<div>
-                     <b>Kota Banjar</b><br>Total Bencana: 71<br>Cluster: 0
-                 </div>`,
+    
+                marker_6bf1c34fbc4668e421d114ba7ec9faaf.setIcon(icon_88b8367065db947d8e9aa1021fcd8a1e);
+            
+    
+            var marker_fd90a78357908630793bca80dbfae7dc = L.marker(
+                [-7.362487, 108.55887],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_83d80fcba59914b49fcfdc51b00ca27e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_6be6eb9eee88b296937bb8f60286e910 = L.circleMarker(
-                [-6.2378, 106.9936],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.7, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_8bfa24da2e0ccce5dc19dd458a7cb2f1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0796ff267005690f554c6987cdc9511a = $(`<div id="html_0796ff267005690f554c6987cdc9511a" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Banjar<br>Total Bencana: 71<br>Cluster: 0</div>`)[0];
+                popup_8bfa24da2e0ccce5dc19dd458a7cb2f1.setContent(html_0796ff267005690f554c6987cdc9511a);
+            
+        
+
+        marker_fd90a78357908630793bca80dbfae7dc.bindPopup(popup_8bfa24da2e0ccce5dc19dd458a7cb2f1)
+        ;
+
         
     
-            circle_marker_6be6eb9eee88b296937bb8f60286e910.bindTooltip(
-                `<div>
-                     <b>Kota Bekasi</b><br>Total Bencana: 14<br>Cluster: 0
-                 </div>`,
+    
+                marker_fd90a78357908630793bca80dbfae7dc.setIcon(icon_83d80fcba59914b49fcfdc51b00ca27e);
+            
+    
+            var marker_b23599ea971a9173fd81ba3cc2dc0bb1 = L.marker(
+                [-6.236221, 106.994293],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_fe8f6252328facd607b2c100dcd714b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_42cb1d73b5e2daf303d6748154b055aa = L.circleMarker(
-                [-6.595, 106.8167],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.15, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_13216cadee9f8b28e7b158d3e06e9a4b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_db7df3d7f1d06d6b1c5509ca5e4b0512 = $(`<div id="html_db7df3d7f1d06d6b1c5509ca5e4b0512" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Bekasi<br>Total Bencana: 14<br>Cluster: 0</div>`)[0];
+                popup_13216cadee9f8b28e7b158d3e06e9a4b.setContent(html_db7df3d7f1d06d6b1c5509ca5e4b0512);
+            
+        
+
+        marker_b23599ea971a9173fd81ba3cc2dc0bb1.bindPopup(popup_13216cadee9f8b28e7b158d3e06e9a4b)
+        ;
+
         
     
-            circle_marker_42cb1d73b5e2daf303d6748154b055aa.bindTooltip(
-                `<div>
-                     <b>Kota Bogor</b><br>Total Bencana: 83<br>Cluster: 0
-                 </div>`,
+    
+                marker_b23599ea971a9173fd81ba3cc2dc0bb1.setIcon(icon_fe8f6252328facd607b2c100dcd714b7);
+            
+    
+            var marker_221450b22f6c9043b3b087e45b98a023 = L.marker(
+                [-6.594946, 106.794913],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_6b880fe82eb5b9ab3be2e0b7c7f16187 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_37e83bde72f56b95d0b88e3d15c54add = L.circleMarker(
-                [-6.8867, 107.5347],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.8, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_a9f6b59e527d57a8e06c42ee7e079944 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c26358f52029825b74cbf93f04371824 = $(`<div id="html_c26358f52029825b74cbf93f04371824" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Bogor<br>Total Bencana: 83<br>Cluster: 0</div>`)[0];
+                popup_a9f6b59e527d57a8e06c42ee7e079944.setContent(html_c26358f52029825b74cbf93f04371824);
+            
+        
+
+        marker_221450b22f6c9043b3b087e45b98a023.bindPopup(popup_a9f6b59e527d57a8e06c42ee7e079944)
+        ;
+
         
     
-            circle_marker_37e83bde72f56b95d0b88e3d15c54add.bindTooltip(
-                `<div>
-                     <b>Kota Cimahi</b><br>Total Bencana: 16<br>Cluster: 0
-                 </div>`,
+    
+                marker_221450b22f6c9043b3b087e45b98a023.setIcon(icon_6b880fe82eb5b9ab3be2e0b7c7f16187);
+            
+    
+            var marker_64918159b64761272a0e042bee636d3b = L.marker(
+                [-6.87121, 107.555486],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_a66248f0e96c1f265901037cbfa976ab = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_d00f24df6572dc09370b73a835c02aaa = L.circleMarker(
-                [-6.7245, 108.557],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.5, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_d9a66ad6a4c79f95721e94a6c654c646 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6cb9e9e5bcab9e05135bdb968999f07c = $(`<div id="html_6cb9e9e5bcab9e05135bdb968999f07c" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Cimahi<br>Total Bencana: 16<br>Cluster: 0</div>`)[0];
+                popup_d9a66ad6a4c79f95721e94a6c654c646.setContent(html_6cb9e9e5bcab9e05135bdb968999f07c);
+            
+        
+
+        marker_64918159b64761272a0e042bee636d3b.bindPopup(popup_d9a66ad6a4c79f95721e94a6c654c646)
+        ;
+
         
     
-            circle_marker_d00f24df6572dc09370b73a835c02aaa.bindTooltip(
-                `<div>
-                     <b>Kota Cirebon</b><br>Total Bencana: 10<br>Cluster: 0
-                 </div>`,
+    
+                marker_64918159b64761272a0e042bee636d3b.setIcon(icon_a66248f0e96c1f265901037cbfa976ab);
+            
+    
+            var marker_50ae174b34405f022affd7c28ed5a80b = L.marker(
+                [-6.707076, 108.557818],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_12031c50108aacd8aa55317de94d345f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_5c52bfb5db15268c28d5d5c998d57efc = L.circleMarker(
-                [-6.4067, 106.8194],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.75, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_85190c4eca10e2457834d6d5f562d959 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_007c8765cffbd3d9ee5ef797b8217cf0 = $(`<div id="html_007c8765cffbd3d9ee5ef797b8217cf0" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Cirebon<br>Total Bencana: 10<br>Cluster: 0</div>`)[0];
+                popup_85190c4eca10e2457834d6d5f562d959.setContent(html_007c8765cffbd3d9ee5ef797b8217cf0);
+            
+        
+
+        marker_50ae174b34405f022affd7c28ed5a80b.bindPopup(popup_85190c4eca10e2457834d6d5f562d959)
+        ;
+
         
     
-            circle_marker_5c52bfb5db15268c28d5d5c998d57efc.bindTooltip(
-                `<div>
-                     <b>Kota Depok</b><br>Total Bencana: 15<br>Cluster: 0
-                 </div>`,
+    
+                marker_50ae174b34405f022affd7c28ed5a80b.setIcon(icon_12031c50108aacd8aa55317de94d345f);
+            
+    
+            var marker_05628bef6770c063a8f554864e972242 = L.marker(
+                [-6.394473, 106.822692],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_d5ee1d46d44c3ecd19a879b4223faa85 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_74fc48d71890e68061a49e192cbf040c = L.circleMarker(
-                [-6.9578, 106.9278],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.95, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_8ab2d5f11fd413c9d86020ba5ea257ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b43a75e3de6104cd65c37b78210a8b84 = $(`<div id="html_b43a75e3de6104cd65c37b78210a8b84" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Depok<br>Total Bencana: 15<br>Cluster: 0</div>`)[0];
+                popup_8ab2d5f11fd413c9d86020ba5ea257ad.setContent(html_b43a75e3de6104cd65c37b78210a8b84);
+            
+        
+
+        marker_05628bef6770c063a8f554864e972242.bindPopup(popup_8ab2d5f11fd413c9d86020ba5ea257ad)
+        ;
+
         
     
-            circle_marker_74fc48d71890e68061a49e192cbf040c.bindTooltip(
-                `<div>
-                     <b>Kota Sukabumi</b><br>Total Bencana: 19<br>Cluster: 0
-                 </div>`,
+    
+                marker_05628bef6770c063a8f554864e972242.setIcon(icon_d5ee1d46d44c3ecd19a879b4223faa85);
+            
+    
+            var marker_f010aa9b043e2985957f45addaffa538 = L.marker(
+                [-6.918366, 106.931496],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_fbd5e471403d92fde2bf27265a7f492d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_1726b55108d06cb288c55db24282a037 = L.circleMarker(
-                [-7.3333, 108.2333],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_73c7997f933a697843332beea51c1fd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e35c2d36e243306ebc249ba3135b62dc = $(`<div id="html_e35c2d36e243306ebc249ba3135b62dc" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Sukabumi<br>Total Bencana: 19<br>Cluster: 0</div>`)[0];
+                popup_73c7997f933a697843332beea51c1fd1.setContent(html_e35c2d36e243306ebc249ba3135b62dc);
+            
+        
+
+        marker_f010aa9b043e2985957f45addaffa538.bindPopup(popup_73c7997f933a697843332beea51c1fd1)
+        ;
+
         
     
-            circle_marker_1726b55108d06cb288c55db24282a037.bindTooltip(
-                `<div>
-                     <b>Kota Tasikmalaya</b><br>Total Bencana: 34<br>Cluster: 0
-                 </div>`,
+    
+                marker_f010aa9b043e2985957f45addaffa538.setIcon(icon_fbd5e471403d92fde2bf27265a7f492d);
+            
+    
+            var marker_07e3c17cc1c3d0651eb176857b0b7678 = L.marker(
+                [-7.316436, 108.1971],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_1b4d6dc2512dacaa8c9ef8084734bf66 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_8a28f70270fe5fd4145571172da3dbaf = L.circleMarker(
-                [-6.9833, 108.7],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.45, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_68a05673bac08d995d05b8d1c28d0663 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_96fb4e966968a9eacc492f80857cb576 = $(`<div id="html_96fb4e966968a9eacc492f80857cb576" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kota Tasikmalaya<br>Total Bencana: 34<br>Cluster: 0</div>`)[0];
+                popup_68a05673bac08d995d05b8d1c28d0663.setContent(html_96fb4e966968a9eacc492f80857cb576);
+            
+        
+
+        marker_07e3c17cc1c3d0651eb176857b0b7678.bindPopup(popup_68a05673bac08d995d05b8d1c28d0663)
+        ;
+
         
     
-            circle_marker_8a28f70270fe5fd4145571172da3dbaf.bindTooltip(
-                `<div>
-                     <b>Kuningan</b><br>Total Bencana: 49<br>Cluster: 0
-                 </div>`,
+    
+                marker_07e3c17cc1c3d0651eb176857b0b7678.setIcon(icon_1b4d6dc2512dacaa8c9ef8084734bf66);
+            
+    
+            var marker_6d30b3eb03835a73ac9ebfe0059a0532 = L.marker(
+                [-6.976233, 108.482982],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_bfb7fcda0368d18e3438da96f094bdef = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_ee1c3436d9bd38ce18768c2b4e09e975 = L.circleMarker(
-                [-6.825, 108.2333],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.0, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_103021fd93b6b794c9f49b1f95aaf971 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf01af1efdd421d14691993c53a7f960 = $(`<div id="html_cf01af1efdd421d14691993c53a7f960" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Kuningan<br>Total Bencana: 49<br>Cluster: 0</div>`)[0];
+                popup_103021fd93b6b794c9f49b1f95aaf971.setContent(html_cf01af1efdd421d14691993c53a7f960);
+            
+        
+
+        marker_6d30b3eb03835a73ac9ebfe0059a0532.bindPopup(popup_103021fd93b6b794c9f49b1f95aaf971)
+        ;
+
         
     
-            circle_marker_ee1c3436d9bd38ce18768c2b4e09e975.bindTooltip(
-                `<div>
-                     <b>Majalengka</b><br>Total Bencana: 80<br>Cluster: 0
-                 </div>`,
+    
+                marker_6d30b3eb03835a73ac9ebfe0059a0532.setIcon(icon_bfb7fcda0368d18e3438da96f094bdef);
+            
+    
+            var marker_a4acbb0e9328d010f742e8115d91cfa0 = L.marker(
+                [-6.836531, 108.227876],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_9706286f9870d1d8d5c12525a37d71ae = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_5313ff224f22ea2d70a91f748d69e3a9 = L.circleMarker(
-                [-7.6, 108.6],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 0.75, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_2600586298ec4b859641f538741ab3a8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebeb6315c27d02464d373eb7ba8afaf2 = $(`<div id="html_ebeb6315c27d02464d373eb7ba8afaf2" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Majalengka<br>Total Bencana: 80<br>Cluster: 0</div>`)[0];
+                popup_2600586298ec4b859641f538741ab3a8.setContent(html_ebeb6315c27d02464d373eb7ba8afaf2);
+            
+        
+
+        marker_a4acbb0e9328d010f742e8115d91cfa0.bindPopup(popup_2600586298ec4b859641f538741ab3a8)
+        ;
+
         
     
-            circle_marker_5313ff224f22ea2d70a91f748d69e3a9.bindTooltip(
-                `<div>
-                     <b>Pangandaran</b><br>Total Bencana: 15<br>Cluster: 0
-                 </div>`,
+    
+                marker_a4acbb0e9328d010f742e8115d91cfa0.setIcon(icon_9706286f9870d1d8d5c12525a37d71ae);
+            
+    
+            var marker_98d9ee7440ee96a5f9871917e510cc84 = L.marker(
+                [-7.701397, 108.495155],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_014bc53e98e6888447f37e58ef4efb0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_3c28b189775c47b656dd84e05e5c5330 = L.circleMarker(
-                [-6.55, 107.4333],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.8, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_a9a83b8b879de4fa39111b709d310879 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74dd4dfb2edc6a24b86199229289e774 = $(`<div id="html_74dd4dfb2edc6a24b86199229289e774" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Pangandaran<br>Total Bencana: 15<br>Cluster: 0</div>`)[0];
+                popup_a9a83b8b879de4fa39111b709d310879.setContent(html_74dd4dfb2edc6a24b86199229289e774);
+            
+        
+
+        marker_98d9ee7440ee96a5f9871917e510cc84.bindPopup(popup_a9a83b8b879de4fa39111b709d310879)
+        ;
+
         
     
-            circle_marker_3c28b189775c47b656dd84e05e5c5330.bindTooltip(
-                `<div>
-                     <b>Purwakarta</b><br>Total Bencana: 36<br>Cluster: 0
-                 </div>`,
+    
+                marker_98d9ee7440ee96a5f9871917e510cc84.setIcon(icon_014bc53e98e6888447f37e58ef4efb0a);
+            
+    
+            var marker_c4d79c999d2976dbfe61247a9fb29841 = L.marker(
+                [-6.551701, 107.446541],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_8906c901973fd9ec45a614ad0518a851 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_00b90e26f918328fad1770930bb8ef06 = L.circleMarker(
-                [-6.5667, 107.75],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.7, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_2d359506d10b31d3cbcc815326584ff4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e4dfd4b964b6a58e260b9a22c720256 = $(`<div id="html_9e4dfd4b964b6a58e260b9a22c720256" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Purwakarta<br>Total Bencana: 36<br>Cluster: 0</div>`)[0];
+                popup_2d359506d10b31d3cbcc815326584ff4.setContent(html_9e4dfd4b964b6a58e260b9a22c720256);
+            
+        
+
+        marker_c4d79c999d2976dbfe61247a9fb29841.bindPopup(popup_2d359506d10b31d3cbcc815326584ff4)
+        ;
+
         
     
-            circle_marker_00b90e26f918328fad1770930bb8ef06.bindTooltip(
-                `<div>
-                     <b>Subang</b><br>Total Bencana: 34<br>Cluster: 0
-                 </div>`,
+    
+                marker_c4d79c999d2976dbfe61247a9fb29841.setIcon(icon_8906c901973fd9ec45a614ad0518a851);
+            
+    
+            var marker_887931447b94199c74f9ae3f3d3749e7 = L.marker(
+                [-6.571549, 107.762495],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_53ba75616ac26f03f600cf1c73a61b86 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_dd03230ef7c0e6b302203da4a7a01838 = L.circleMarker(
-                [-7.0, 106.6],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.9, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_923a1c1af0f7aa4c8f27ebf256f8baaa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a86345b629ce86b7efafa0359e9c7761 = $(`<div id="html_a86345b629ce86b7efafa0359e9c7761" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Subang<br>Total Bencana: 34<br>Cluster: 0</div>`)[0];
+                popup_923a1c1af0f7aa4c8f27ebf256f8baaa.setContent(html_a86345b629ce86b7efafa0359e9c7761);
+            
+        
+
+        marker_887931447b94199c74f9ae3f3d3749e7.bindPopup(popup_923a1c1af0f7aa4c8f27ebf256f8baaa)
+        ;
+
         
     
-            circle_marker_dd03230ef7c0e6b302203da4a7a01838.bindTooltip(
-                `<div>
-                     <b>Sukabumi</b><br>Total Bencana: 178<br>Cluster: 0
-                 </div>`,
+    
+                marker_887931447b94199c74f9ae3f3d3749e7.setIcon(icon_53ba75616ac26f03f600cf1c73a61b86);
+            
+    
+            var marker_8f87bba1455a3d2fd656d3369f44f4e2 = L.marker(
+                [-6.915727, 106.932576],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_fbcd43c04ac5ca62a157240bc0a219f9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_38ce1a3b3d3698284509db66a389e693 = L.circleMarker(
-                [-6.8333, 107.95],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.85, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_0cc9f2d1af5de793478e17d0ed3ff837 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff3689cd297c48907996207c01dbc20d = $(`<div id="html_ff3689cd297c48907996207c01dbc20d" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Sukabumi<br>Total Bencana: 178<br>Cluster: 0</div>`)[0];
+                popup_0cc9f2d1af5de793478e17d0ed3ff837.setContent(html_ff3689cd297c48907996207c01dbc20d);
+            
+        
+
+        marker_8f87bba1455a3d2fd656d3369f44f4e2.bindPopup(popup_0cc9f2d1af5de793478e17d0ed3ff837)
+        ;
+
         
     
-            circle_marker_38ce1a3b3d3698284509db66a389e693.bindTooltip(
-                `<div>
-                     <b>Sumedang</b><br>Total Bencana: 57<br>Cluster: 0
-                 </div>`,
+    
+                marker_8f87bba1455a3d2fd656d3369f44f4e2.setIcon(icon_fbcd43c04ac5ca62a157240bc0a219f9);
+            
+    
+            var marker_bc42735e7442be1cfb2c9635e163865c = L.marker(
+                [-6.861126, 107.920102],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_5e7821c638a24d93e564c03b9bab34c7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
     
-            var circle_marker_e33272ab9dd025786c36fe88d8833ae3 = L.circleMarker(
-                [-7.2833, 108.0833],
-                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.3, "stroke": true, "weight": 3}
-            ).addTo(map_3891c7d6b333a3067976a40f05feffe5);
+        var popup_441b33f21a2a28aff3c2afed93a52ade = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e99a79e8be26b91fa6da880a489651f = $(`<div id="html_6e99a79e8be26b91fa6da880a489651f" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Sumedang<br>Total Bencana: 57<br>Cluster: 0</div>`)[0];
+                popup_441b33f21a2a28aff3c2afed93a52ade.setContent(html_6e99a79e8be26b91fa6da880a489651f);
+            
+        
+
+        marker_bc42735e7442be1cfb2c9635e163865c.bindPopup(popup_441b33f21a2a28aff3c2afed93a52ade)
+        ;
+
         
     
-            circle_marker_e33272ab9dd025786c36fe88d8833ae3.bindTooltip(
-                `<div>
-                     <b>Tasikmalaya</b><br>Total Bencana: 26<br>Cluster: 0
-                 </div>`,
+    
+                marker_bc42735e7442be1cfb2c9635e163865c.setIcon(icon_5e7821c638a24d93e564c03b9bab34c7);
+            
+    
+            var marker_542b81d41e0c88e19ec719e75c2c4764 = L.marker(
+                [-7.361212, 108.112488],
                 {
-  "sticky": true,
+}
+            ).addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+            var icon_a5452750b044fd1b4921d50239aa246e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
 }
             );
         
+    
+        var popup_6ec292ca8e4f57bae46e9b94f9e668e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e247271b9509867a08fad2911ef28d0 = $(`<div id="html_6e247271b9509867a08fad2911ef28d0" style="width: 100.0%; height: 100.0%;">Kabupaten/Kota: Tasikmalaya<br>Total Bencana: 26<br>Cluster: 0</div>`)[0];
+                popup_6ec292ca8e4f57bae46e9b94f9e668e3.setContent(html_6e247271b9509867a08fad2911ef28d0);
+            
+        
+
+        marker_542b81d41e0c88e19ec719e75c2c4764.bindPopup(popup_6ec292ca8e4f57bae46e9b94f9e668e3)
+        ;
+
+        
+    
+    
+                marker_542b81d41e0c88e19ec719e75c2c4764.setIcon(icon_a5452750b044fd1b4921d50239aa246e);
+            
+    
+            tile_layer_7ed20e9ce69b39fb78bf3fe91c7e52df.addTo(map_4a4278f69c442c979b40efb3d3f00cb0);
+        
+    
+                marker_22d209b01e291532c0081826e0cdf35f.setIcon(icon_a3c8be97f45b1eb24ecefca1fcaefbce);
+            
+    
+                marker_d908a88c88ae1f3b66a4655217de5647.setIcon(icon_6f9ce448d66ac9d68f8dbe5ebe16113e);
+            
+    
+                marker_fd98b92761d7d69134f56628b5d17ed8.setIcon(icon_5614d9161afac2670eba361917429287);
+            
+    
+                marker_7512205c2c3162a15234a67213eb385d.setIcon(icon_d4b31b777418fed5a460ea8bdd3508a1);
+            
+    
+                marker_6068eed408682ca562a5d5541787b0f7.setIcon(icon_b015bb7228192722e1e274c1c753a818);
+            
+    
+                marker_e711e67ff18104bf0fa59f0b01cda13d.setIcon(icon_66af6f99b404c347ef5e798b55d3dfba);
+            
+    
+                marker_8d2948b03a8fa590f804b164e9c0345c.setIcon(icon_014121105670082c0f0dfba8ff66f77a);
+            
+    
+                marker_1b72bfe8f3fc2c508f618096b391f589.setIcon(icon_2222b0184e22c5d8c8f7ba7e92e89cf3);
+            
+    
+                marker_6651cc53a159173cafe70fbaf622e7da.setIcon(icon_c8ba2be1f42db66314a9eeb17e0e97ae);
+            
+    
+                marker_0f581c4ed41089290c9aa475fa959292.setIcon(icon_3409df960222f1d9096d67af0ad34965);
+            
+    
+                marker_6bf1c34fbc4668e421d114ba7ec9faaf.setIcon(icon_88b8367065db947d8e9aa1021fcd8a1e);
+            
+    
+                marker_fd90a78357908630793bca80dbfae7dc.setIcon(icon_83d80fcba59914b49fcfdc51b00ca27e);
+            
+    
+                marker_b23599ea971a9173fd81ba3cc2dc0bb1.setIcon(icon_fe8f6252328facd607b2c100dcd714b7);
+            
+    
+                marker_221450b22f6c9043b3b087e45b98a023.setIcon(icon_6b880fe82eb5b9ab3be2e0b7c7f16187);
+            
+    
+                marker_64918159b64761272a0e042bee636d3b.setIcon(icon_a66248f0e96c1f265901037cbfa976ab);
+            
+    
+                marker_50ae174b34405f022affd7c28ed5a80b.setIcon(icon_12031c50108aacd8aa55317de94d345f);
+            
+    
+                marker_05628bef6770c063a8f554864e972242.setIcon(icon_d5ee1d46d44c3ecd19a879b4223faa85);
+            
+    
+                marker_f010aa9b043e2985957f45addaffa538.setIcon(icon_fbd5e471403d92fde2bf27265a7f492d);
+            
+    
+                marker_07e3c17cc1c3d0651eb176857b0b7678.setIcon(icon_1b4d6dc2512dacaa8c9ef8084734bf66);
+            
+    
+                marker_6d30b3eb03835a73ac9ebfe0059a0532.setIcon(icon_bfb7fcda0368d18e3438da96f094bdef);
+            
+    
+                marker_a4acbb0e9328d010f742e8115d91cfa0.setIcon(icon_9706286f9870d1d8d5c12525a37d71ae);
+            
+    
+                marker_98d9ee7440ee96a5f9871917e510cc84.setIcon(icon_014bc53e98e6888447f37e58ef4efb0a);
+            
+    
+                marker_c4d79c999d2976dbfe61247a9fb29841.setIcon(icon_8906c901973fd9ec45a614ad0518a851);
+            
+    
+                marker_887931447b94199c74f9ae3f3d3749e7.setIcon(icon_53ba75616ac26f03f600cf1c73a61b86);
+            
+    
+                marker_8f87bba1455a3d2fd656d3369f44f4e2.setIcon(icon_fbcd43c04ac5ca62a157240bc0a219f9);
+            
+    
+                marker_bc42735e7442be1cfb2c9635e163865c.setIcon(icon_5e7821c638a24d93e564c03b9bab34c7);
+            
+    
+                marker_542b81d41e0c88e19ec719e75c2c4764.setIcon(icon_a5452750b044fd1b4921d50239aa246e);
+            
 </script>
 </html>
